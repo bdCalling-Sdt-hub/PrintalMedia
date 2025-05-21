@@ -54,7 +54,6 @@ const MyProfile = () => {
                             rules={[
                                 {
                                     required: ImageFileList?.length === 0,
-                                    message: "Image required",
                                 },
                             ]}
                         >
@@ -82,7 +81,6 @@ const MyProfile = () => {
                 <div className="flex justify-between gap-3">
                     <Form.Item
                         name="first_name"
-                        rules={[{ required: true, message: "Please enter your First name" }]}
                         style={{ width: "50%" }}
                     >
                         <Input
@@ -99,7 +97,7 @@ const MyProfile = () => {
 
                     <Form.Item
                         name="last_name"
-                        rules={[{ required: true, message: "Please enter your Last name" }]}
+
                         style={{ width: "50%" }}
                     >
                         <Input
@@ -118,7 +116,6 @@ const MyProfile = () => {
                 <div>
                     <Form.Item
                         name="phone"
-                        rules={[{ required: true, message: "Please enter your contact number" }]}
                     // style={{ width: "50%" }}
                     >
                         <Input
@@ -137,7 +134,6 @@ const MyProfile = () => {
                 <div>
                     <Form.Item
                         name="address"
-                        rules={[{ required: true, message: "Please enter your Location" }]}
                     // style={{ width: "50%" }}
                     >
                         <Input
