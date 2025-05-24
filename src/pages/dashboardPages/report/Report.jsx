@@ -249,12 +249,7 @@ const Report = () => {
                 open={modalOpenOne}
                 onOk={handleMondalOpenOneOk}
                 onCancel={handleMondalCancelOneOk}
-                footer={
-                    <div className='pb-4 flex items-center gap-4 justify-end mx-4'>
-                        <button onClick={handleMondalCancelOneOk} className='p-2 px-8 border border-[#ccc] text-[16px] rounded'>Cancel</button>
-                        <button  className='bg-primary p-2 px-8 text-[#ffff] text-[16px] rounded'>Save</button>
-                    </div>
-                }
+                footer={null}
                 width={600}
                 className='custom-service-modal'
                 maskStyle={{ backgroundColor: 'rgba(134, 134, 134, 0.4)' }}

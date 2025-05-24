@@ -99,14 +99,20 @@ const PostListing = () => {
             title: 'Order Type',
             dataIndex: 'order_type',
         },
-      
-       
+
+
         {
             title: <div className="text-right">Action</div>,
             dataIndex: "action",
             key: "action",
             render: (_, record) => (
                 <div className="flex items-center justify-end gap-3">
+                    <button>
+                        <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 1H10.5L9.5 0H4.5L3.5 1H0V3H14M1 16C1 16.5304 1.21071 17.0391 1.58579 17.4142C1.96086 17.7893 2.46957 18 3 18H11C11.5304 18 12.0391 17.7893 12.4142 17.4142C12.7893 17.0391 13 16.5304 13 16V4H1V16Z" fill="#FF5353" />
+                        </svg>
+                    </button>
+
                     <button
                         onClick={showModalOne}
                         className=" p-1 rounded bg-blue"
@@ -132,72 +138,72 @@ const PostListing = () => {
         {
             key: '1',
             name: 'John Brown',
-           order_type:"Home-Made",
-            location:"Dhaka",
-            food_type:"Meal",
+            order_type: "Home-Made",
+            location: "Dhaka",
+            food_type: "Meal",
             action: '1',
             avatar: 'https://randomuser.me/api/portraits/men/1.jpg'
         },
         {
             key: '2',
             name: 'Emma Smith',
-           order_type:"Restaurant",
-            location:"Shylet",
-            food_type:"Drink",
+            order_type: "Restaurant",
+            location: "Shylet",
+            food_type: "Drink",
             action: '2',
             avatar: 'https://randomuser.me/api/portraits/women/2.jpg'
         },
         {
             key: '3',
             name: 'Liam Johnson',
-           order_type:"Restaurant",
-            location:"Khulna",
-            food_type:"Drink",
+            order_type: "Restaurant",
+            location: "Khulna",
+            food_type: "Drink",
             action: '3',
             avatar: 'https://randomuser.me/api/portraits/men/3.jpg'
         },
         {
             key: '4',
             name: 'Olivia Brown',
-           order_type:"Home-Made",
-            location:"Shylet",
-            food_type:"Meal",
+            order_type: "Home-Made",
+            location: "Shylet",
+            food_type: "Meal",
             action: '4',
             avatar: 'https://randomuser.me/api/portraits/women/4.jpg'
         },
         {
             key: '5',
             name: 'Noah Williams',
-           order_type:"Restaurant",
-            location:"Dhaka",
-            food_type:"Drink",
+            order_type: "Restaurant",
+            location: "Dhaka",
+            food_type: "Drink",
             action: '5',
             avatar: 'https://randomuser.me/api/portraits/men/5.jpg'
         },
         {
             key: '6',
             name: 'Ava Jones',
-           order_type:"Home-Made",
-            location:"Dhaka",
-            food_type:"Meal",
+            order_type: "Home-Made",
+            location: "Dhaka",
+            food_type: "Meal",
             action: '6',
             avatar: 'https://randomuser.me/api/portraits/women/6.jpg'
         },
         {
             key: '7',
             name: 'William Garcia',
-           order_type:"Restaurant",
-            location:"Dhaka",
-            food_type:"Meal",
+            order_type: "Restaurant",
+            location: "Dhaka",
+            food_type: "Meal",
             action: '7',
             avatar: 'https://randomuser.me/api/portraits/men/7.jpg'
         },
         {
             key: '8',
             name: 'Sophia Miller',
-           order_type:"Home-Made",
-            location:"Dhaka",
-            food_type:"Meal",
+            order_type: "Home-Made",
+            location: "Dhaka",
+            food_type: "Meal",
             action: '8',
             avatar: 'https://randomuser.me/api/portraits/women/8.jpg'
         },
